@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.thumb.jpg
+growth_upload_*/
+certs/
+artifacts/
+.streamlit/secrets.toml
+
+# iOS / Xcode
+ios/**/DerivedData/
+ios/**/*.xcuserstate
+ios/**/xcuserdata/
+ios/**/.build/
+ios/**/build/
