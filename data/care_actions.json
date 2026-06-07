@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-06-07",
+    "action_type": "pruning",
+    "action": "light_tip_pinch_eastern_shoot",
+    "description": "Pinched top 1-3 inches of tallest eastern growing tip above leaf node",
+    "result": "New side shoots emerging from nodes below pinch within 1-2 weeks",
+    "stem_target": "tallest_eastern_shoot"
+  },
+  {
+    "date": "2026-06-07",
+    "action_type": "observation",
+    "action": "baseline_photo_session",
+    "description": "12-photo clockwise walk at face level plus overhead shots for size estimation",
+    "result": "Height ~168 cm, width ~107 cm estimated"
+  },
+  {
+    "date": "2026-06-07",
+    "action_type": "observation",
+    "action": "base_seedling_identification",
+    "description": "Dozens of brassica seedlings at base identified as likely rutabaga volunteers",
+    "result": "No immediate threat to Brugmansia; expect bolting in June heat"
+  }
+]

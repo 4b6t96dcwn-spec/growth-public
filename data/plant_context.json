@@ -1,0 +1,100 @@
+{
+  "session_id": "brugmansia_june_2026",
+  "saved_at": "2026-06-07",
+  "species": "Brugmansia (Angel's Trumpet)",
+  "location": {
+    "city": "Charlotte",
+    "state": "NC",
+    "timezone": "America/New_York",
+    "soil": "Red clay, amended planting hole",
+    "climate_notes": "Early June peak growing season; long days, warming soil, morning sun, typical humidity"
+  },
+  "size_estimates": {
+    "height_cm": 168,
+    "height_ft": "5'6\"",
+    "height_range_cm": [165, 198],
+    "width_cm": 107,
+    "width_range_cm": [91, 122],
+    "confidence": "±15-30 cm from multi-angle photo analysis",
+    "method": "12 clockwise photos at face level + 3-4 overhead; camera height ~173 cm for 5'9\" photographer; garden markers (2-3 ft cage, 5-6 ft shepherd's hook)"
+  },
+  "root_system": {
+    "depth_bulk_in": "12-18",
+    "depth_anchoring_in": "18-24",
+    "depth_max_in": 30,
+    "spread_diameter_ft": "4-6",
+    "spread_radius_ft": "2-3",
+    "notes": "Dense fibrous roots from container transplant; focus watering and feeding within ~3 ft of base"
+  },
+  "light_pattern": {
+    "morning": "Direct morning sun from east",
+    "midday": "Partial shade after noon",
+    "afternoon": "~2 hours afternoon sun",
+    "growth_bias": "Strong eastward phototropism",
+    "pruning_implication": "Prioritize tip-pinching tallest eastern stems; pinch inner and west/south shoots for balance"
+  },
+  "photo_protocol": {
+    "device": "iPhone 15",
+    "magnification": "1x",
+    "photographer_height": "5'9\"",
+    "camera_height_estimate": "~5'7\" face level",
+    "walk_pattern": "Clockwise around plant at consistent height",
+    "overhead_shots": "Last 3-4 photos from above for top foliage",
+    "min_angles": 6,
+    "recommended_angles": ["front", "left", "right", "back", "top-down", "base"],
+    "scale_objects": ["ruler", "measuring tape", "US quarter", "credit card", "hand"],
+    "reference_markers_in_garden": [
+      "Black metal garden cage/trellis (~2-3 ft)",
+      "Shepherd's hook + birdhouse (~5-6 ft)",
+      "Rose bushes and garden ornaments"
+    ]
+  },
+  "companion_plants": {
+    "base_seedlings": "Likely rutabaga or other brassica volunteers",
+    "impact": "Minor competition; rutabaga will bolt in June heat and decline by mid-summer",
+    "recommendation": "Optional to pull while small; dying brassica adds minor organic matter"
+  },
+  "fertilizer_regimen": {
+    "peak_growth": {
+      "period": "Now through July/August",
+      "frequency_days": [14, 21],
+      "formula": "Balanced liquid (10-10-10, 20-20-20, or fish/seaweed emulsion)",
+      "strength": "Half to full label strength while watering"
+    },
+    "flowering": {
+      "formula": "Bloom booster higher in P and K (5-10-10 or 10-30-20)"
+    },
+    "slow_release": "Monthly balanced granular top-up optional",
+    "reduce_after": "Late August/September"
+  },
+  "pruning_guidance": {
+    "technique": "Tip-pinch or lightly prune soft green growing tips (1-3 inches) above leaf nodes",
+    "science": "Removes apical meristem; reduces auxin apical dominance; awakens lateral buds",
+    "timing": "Early to mid-morning on mild days; every 2-4 weeks during active growth",
+    "stop_by": "Late August/September",
+    "current_priority": [
+      "Remove damaged, holey, or yellowing lower leaves",
+      "Tip-pinch tallest eastern stems to counter lean",
+      "Pinch inner and west/south-facing shoots for bushiness",
+      "Thin weak overcrowded basal shoots if needed"
+    ],
+    "actions_completed": [
+      {
+        "date": "2026-06-07",
+        "action": "light_tip_pinch_eastern_shoot",
+        "result": "New side shoots emerging within days; successful apical dominance break"
+      }
+    ]
+  },
+  "pest_monitoring": {
+    "common": ["aphids", "spider mites", "caterpillars"],
+    "signs": ["leaf holes", "yellowing edges", "sticky residue", "small dots on new growth"],
+    "treatment": "Hose off, insecticidal soap, or neem oil in evening"
+  },
+  "winter_notes": {
+    "frost_timing": "Mid-November to December in Charlotte",
+    "tops": "Killed by hard frost",
+    "roots": "Overwinter fine with mulch in mild winters"
+  },
+  "constraints": "Hand injury (pins/cast) — prefer finger-pinching over heavy tool use"
+}
