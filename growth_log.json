@@ -1,0 +1,16 @@
+[
+  {
+    "date": "2026-06-07",
+    "height_cm": 168,
+    "width_cm": 107,
+    "main_stems": null,
+    "lean_direction": "east",
+    "root_spread_ft": "4-6",
+    "root_depth_in": "12-24",
+    "notes": "Baseline session from 12 clockwise iPhone 15 photos (face level + overhead). Height ~5'6\", width ~3.5 ft. Successfully tip-pinched one tall eastern shoot; new side growth already visible. Many small brassica seedlings at base (likely rutabaga).",
+    "actions_taken": ["light_tip_pinch_eastern_shoot", "baseline_photo_session"],
+    "photos_folder": "photos/2026-06-07",
+    "model_3d": null,
+    "size_method": "multi_angle_photos_with_garden_markers_and_shadows"
+  }
+]
