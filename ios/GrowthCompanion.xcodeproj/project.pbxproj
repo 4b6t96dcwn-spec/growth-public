@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05FC6119B182DC34F61311BA /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB7B9E7E4AC8318C897EFE4 /* MainTabView.swift */; };
+		0D15DD20E6E2958F56423891 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92A6B94A61A603E65C23BE /* SettingsViewModel.swift */; };
+		1479ED53E23D5DF06B01E12E /* CertificateTrust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD101AD5DDE4868CE5BDEBD /* CertificateTrust.swift */; };
+		1BCCD199872ED71B631199D5 /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995495C125BBFEE5D9B3A003 /* CameraPicker.swift */; };
+		3F4E7E9E6EBE29E04469DEB8 /* BonjourDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA4F74608FA2BA6121C2B0A /* BonjourDiscovery.swift */; };
+		4495FCAF953645A92D84D1DB /* CareViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672BA5F427F605823169497 /* CareViewModel.swift */; };
+		5AB23B5CFFFCA54DE2172318 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBED519C260BAE7F72944A1E /* DashboardView.swift */; };
+		5BB7A9ECD344EC30C9607ED3 /* CaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA648265C0FA7BCD7ADEA80D /* CaptureSession.swift */; };
+		6AD32E14D1AFD027BBF8C33F /* GrowthCompanionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400229B475E523FC908788F6 /* GrowthCompanionApp.swift */; };
+		7D0E088ECC5C6628A90ECEC5 /* UploadQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118C46F0E547D484B477672 /* UploadQueue.swift */; };
+		7D31C44BF099F6854EF9AABE /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7EB531179B79CAEE3B65D1 /* HistoryViewModel.swift */; };
+		8E99F645C2A345E7D4B98999 /* APIResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221542032BD94BA893C77FC /* APIResponses.swift */; };
+		8E9E0357051421A848048AA7 /* ServerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055A25B7EDDACAF213DD5A55 /* ServerConfig.swift */; };
+		A2FF4AD60AA02366BE788204 /* GrowthAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA8633B85C970F298D610D /* GrowthAPIClient.swift */; };
+		BDB31B8FFA5C7D1FF9161784 /* CaptureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9767A3DD1B8631BDC6BE050E /* CaptureViewModel.swift */; };
+		C3E29A390F79C91C3970FDD2 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8473150A7F0115930C43B804 /* DashboardViewModel.swift */; };
+		CEDF71D9B5A7D7305D8C0273 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEBB52A1AD772AB4AA60DAE /* HistoryView.swift */; };
+		CEF10131BF836EDFF840591B /* CaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C782E843BD9F957325ADA9 /* CaptureView.swift */; };
+		D0006D971FC9F2B8C454CB39 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2C2BC5A56510007E0FAA2A /* SettingsView.swift */; };
+		F90EF9D499D9B6C63C8E09F3 /* CareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFD622F1834EFCEC01614C /* CareView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		055A25B7EDDACAF213DD5A55 /* ServerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConfig.swift; sourceTree = "<group>"; };
+		0DA4F74608FA2BA6121C2B0A /* BonjourDiscovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonjourDiscovery.swift; sourceTree = "<group>"; };
+		2118C46F0E547D484B477672 /* UploadQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadQueue.swift; sourceTree = "<group>"; };
+		24C782E843BD9F957325ADA9 /* CaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureView.swift; sourceTree = "<group>"; };
+		2ADFD622F1834EFCEC01614C /* CareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareView.swift; sourceTree = "<group>"; };
+		3BB7B9E7E4AC8318C897EFE4 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		400229B475E523FC908788F6 /* GrowthCompanionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowthCompanionApp.swift; sourceTree = "<group>"; };
+		4B7EB531179B79CAEE3B65D1 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		5A2C2BC5A56510007E0FAA2A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5AEBB52A1AD772AB4AA60DAE /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		63E5315CF46EBE17090897EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8473150A7F0115930C43B804 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		8AD101AD5DDE4868CE5BDEBD /* CertificateTrust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateTrust.swift; sourceTree = "<group>"; };
+		9767A3DD1B8631BDC6BE050E /* CaptureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureViewModel.swift; sourceTree = "<group>"; };
+		995495C125BBFEE5D9B3A003 /* CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
+		9A92A6B94A61A603E65C23BE /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		A221542032BD94BA893C77FC /* APIResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponses.swift; sourceTree = "<group>"; };
+		AA648265C0FA7BCD7ADEA80D /* CaptureSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureSession.swift; sourceTree = "<group>"; };
+		C672BA5F427F605823169497 /* CareViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareViewModel.swift; sourceTree = "<group>"; };
+		CBED519C260BAE7F72944A1E /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		CEAA8633B85C970F298D610D /* GrowthAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowthAPIClient.swift; sourceTree = "<group>"; };
+		F307AC4972EB4538F7040714 /* GrowthCompanion.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = GrowthCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3D1A1CA5AFE5822D2864A17E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63E5315CF46EBE17090897EC /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		41FEC3BE7228ED94A8266864 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F307AC4972EB4538F7040714 /* GrowthCompanion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45362391F623FC2C5033E63C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A221542032BD94BA893C77FC /* APIResponses.swift */,
+				AA648265C0FA7BCD7ADEA80D /* CaptureSession.swift */,
+				055A25B7EDDACAF213DD5A55 /* ServerConfig.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		48CDBCD1D431AE2B8A12CA8E = {
+			isa = PBXGroup;
+			children = (
+				98CEA50F0EF61C6F0FFF8B3D /* GrowthCompanion */,
+				41FEC3BE7228ED94A8266864 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58D000933527F4631B931471 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0DA4F74608FA2BA6121C2B0A /* BonjourDiscovery.swift */,
+				8AD101AD5DDE4868CE5BDEBD /* CertificateTrust.swift */,
+				CEAA8633B85C970F298D610D /* GrowthAPIClient.swift */,
+				2118C46F0E547D484B477672 /* UploadQueue.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		60B2F144DD77CEEF113F134A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				995495C125BBFEE5D9B3A003 /* CameraPicker.swift */,
+				24C782E843BD9F957325ADA9 /* CaptureView.swift */,
+				2ADFD622F1834EFCEC01614C /* CareView.swift */,
+				CBED519C260BAE7F72944A1E /* DashboardView.swift */,
+				5AEBB52A1AD772AB4AA60DAE /* HistoryView.swift */,
+				3BB7B9E7E4AC8318C897EFE4 /* MainTabView.swift */,
+				5A2C2BC5A56510007E0FAA2A /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		913D3A6617F1FD57041359F0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9767A3DD1B8631BDC6BE050E /* CaptureViewModel.swift */,
+				C672BA5F427F605823169497 /* CareViewModel.swift */,
+				8473150A7F0115930C43B804 /* DashboardViewModel.swift */,
+				4B7EB531179B79CAEE3B65D1 /* HistoryViewModel.swift */,
+				9A92A6B94A61A603E65C23BE /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		98CEA50F0EF61C6F0FFF8B3D /* GrowthCompanion */ = {
+			isa = PBXGroup;
+			children = (
+				400229B475E523FC908788F6 /* GrowthCompanionApp.swift */,
+				45362391F623FC2C5033E63C /* Models */,
+				3D1A1CA5AFE5822D2864A17E /* Resources */,
+				58D000933527F4631B931471 /* Services */,
+				913D3A6617F1FD57041359F0 /* ViewModels */,
+				60B2F144DD77CEEF113F134A /* Views */,
+			);
+			path = GrowthCompanion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E02794C1E99AE6F18211C0D /* GrowthCompanion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D95CC8D7AC64DE0FFE8FA9D1 /* Build configuration list for PBXNativeTarget "GrowthCompanion" */;
+			buildPhases = (
+				7B0C02AF666F7A5222266933 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrowthCompanion;
+			packageProductDependencies = (
+			);
+			productName = GrowthCompanion;
+			productReference = F307AC4972EB4538F7040714 /* GrowthCompanion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCDFB1E670AD85938B89CF38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7E02794C1E99AE6F18211C0D = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8A128702C47B041ABF918290 /* Build configuration list for PBXProject "GrowthCompanion" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 48CDBCD1D431AE2B8A12CA8E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 41FEC3BE7228ED94A8266864 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E02794C1E99AE6F18211C0D /* GrowthCompanion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B0C02AF666F7A5222266933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E99F645C2A345E7D4B98999 /* APIResponses.swift in Sources */,
+				3F4E7E9E6EBE29E04469DEB8 /* BonjourDiscovery.swift in Sources */,
+				1BCCD199872ED71B631199D5 /* CameraPicker.swift in Sources */,
+				5BB7A9ECD344EC30C9607ED3 /* CaptureSession.swift in Sources */,
+				CEF10131BF836EDFF840591B /* CaptureView.swift in Sources */,
+				BDB31B8FFA5C7D1FF9161784 /* CaptureViewModel.swift in Sources */,
+				F90EF9D499D9B6C63C8E09F3 /* CareView.swift in Sources */,
+				4495FCAF953645A92D84D1DB /* CareViewModel.swift in Sources */,
+				1479ED53E23D5DF06B01E12E /* CertificateTrust.swift in Sources */,
+				5AB23B5CFFFCA54DE2172318 /* DashboardView.swift in Sources */,
+				C3E29A390F79C91C3970FDD2 /* DashboardViewModel.swift in Sources */,
+				A2FF4AD60AA02366BE788204 /* GrowthAPIClient.swift in Sources */,
+				6AD32E14D1AFD027BBF8C33F /* GrowthCompanionApp.swift in Sources */,
+				CEDF71D9B5A7D7305D8C0273 /* HistoryView.swift in Sources */,
+				7D31C44BF099F6854EF9AABE /* HistoryViewModel.swift in Sources */,
+				05FC6119B182DC34F61311BA /* MainTabView.swift in Sources */,
+				8E9E0357051421A848048AA7 /* ServerConfig.swift in Sources */,
+				D0006D971FC9F2B8C454CB39 /* SettingsView.swift in Sources */,
+				0D15DD20E6E2958F56423891 /* SettingsViewModel.swift in Sources */,
+				7D0E088ECC5C6628A90ECEC5 /* UploadQueue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0394DEBF5D13B4EE6520EFC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GrowthCompanion/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = growth;
+				INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsLocalNetworking = YES;
+				INFOPLIST_KEY_NSBonjourServices = (
+					_growth._tcp,
+				);
+				INFOPLIST_KEY_NSCameraUsageDescription = "Capture plant photos for growth tracking";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Connect to the growth app on your Mac over Wi-Fi";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Record short plant videos";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Select plant photos to upload to your Mac";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.growth.companion;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		683A0D636A2C61426DC3AAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		6D973714DA854D01A328FD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		A0D0480D8B6D43A76687FBB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GrowthCompanion/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = growth;
+				INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsLocalNetworking = YES;
+				INFOPLIST_KEY_NSBonjourServices = (
+					_growth._tcp,
+				);
+				INFOPLIST_KEY_NSCameraUsageDescription = "Capture plant photos for growth tracking";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Connect to the growth app on your Mac over Wi-Fi";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Record short plant videos";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Select plant photos to upload to your Mac";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.growth.companion;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A128702C47B041ABF918290 /* Build configuration list for PBXProject "GrowthCompanion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683A0D636A2C61426DC3AAF9 /* Debug */,
+				6D973714DA854D01A328FD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D95CC8D7AC64DE0FFE8FA9D1 /* Build configuration list for PBXNativeTarget "GrowthCompanion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0394DEBF5D13B4EE6520EFC1 /* Debug */,
+				A0D0480D8B6D43A76687FBB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCDFB1E670AD85938B89CF38 /* Project object */;
+}
